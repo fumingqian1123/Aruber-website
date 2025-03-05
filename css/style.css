@@ -1476,4 +1476,26 @@ h3.sub-w3ls-headf {
 
 @media(max-width:320px) {}
 
+.icon-image {
+    width: 20px; /* 默认大小 */
+    height: 20px; /* 默认大小 */
+    vertical-align: middle; /* 确保图片垂直居中 */
+    margin-right: auto;
+}
+
+/* 在移动端调整大小 */
+@media (max-width: 768px) {
+    .icon-image {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+/* 在 PC 端调整大小 */
+@media (min-width: 769px) {
+    .icon-image {
+        width: 40px;
+        height: 40px;
+    }
+}
 /*--//responsive--*/
